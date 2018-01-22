@@ -68,6 +68,11 @@ Some Pre-made Templates Sources:
 
 ### Responsive design:
 - Use Tables
+- Some clients - mainly mobile support media queries:
+Before:
+![Image](https://github.com/dinbrca/email-templating-guide/raw/master/android4-vertical-allowed-1366.png)
+After:
+![Image](https://github.com/dinbrca/email-templating-guide/raw/master/android4-vertical-allowed-1366%20(1).png)
 
 ### Images:
 - Images on mobile are pixelized - to fix - create an image with a size of 2x and resize the image to half of it in the html

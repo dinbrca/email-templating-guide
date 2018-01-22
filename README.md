@@ -1,5 +1,8 @@
 # Definitive HTML Email Templating Guide [Transactional / Marketing Email Templating]
 
+## Contribution
+Contribution is welcomed, we will merge any pull request happily.
+
 ## Introduction
 Some general email guidelines:
 - https://stackoverflow.com/questions/127498/what-guidelines-for-html-email-design-are-there
@@ -15,6 +18,8 @@ Some Pre-made Templates Sources:
 
 - https://github.com/mailgun/transactional-email-templates
 
+- https://github.com/wildbit/postmark-templates
+
 
 ## Guide
 ### General:
@@ -24,6 +29,11 @@ Some Pre-made Templates Sources:
 - Use tables and not divs
 
 - Consider as it's 1997
+
+- Check your email distribution statistics
+
+- Allow users to view the email in browser and not in email client.
+
 
 ### Responsive design:
 
@@ -39,6 +49,7 @@ Some Pre-made Templates Sources:
 - If you are using font-size or font-family - use it on every `table`, every `p` tag - because else the client will override you
 
 ### CSS Styling:
+- Use Inline CSS to override email client CSS
 - Outlook and images not using max-width property: <https://stackoverflow.com/questions/20989897/image-style-height-and-width-not-taken-in-outlook-mails> - fix - use a parent with fixed width and then half width in images
 - Avoid using padding - Outlook doesn't like padding, Outlook 2013 / 2016 doesn't support padding at all - fix - for new lines 
 - Outlook (for Window) doesn't respect line-height - fix - use `mso-line-height-rule: exactly;line-height:110%;` for `line-height:24px;` effect, `mso-line-height-rule: exactly;line-height: 245%` for almost `line-height:36px;` effect: https://stackoverflow.com/questions/8980956/line-height-not-working-in-outlook-2010-for-html-email
@@ -73,12 +84,11 @@ Instead of the solution of td before and after
 ### Paragraphs (`<p>`):
 - if you are using `<p>` - you should add `style="margin:1em 0;"` as fix for outlook - because chrome user agent css adds that.
 
-
-### Problems:
+### Other Problems:
 - use `<br/>`, for padding from sides - tables with fixed width
 - Avoid margins in images - Outlook.com doesn't like it and removes margins from images as seen in the logo - use `<br/>` for top and bottom margins if you can
 
-## Tools
+## General Tools
 ### Current available tools
 - Litmus <https://www.litmus.com/>
 - Email on Acid <https://www.emailonacid.com/>
@@ -88,5 +98,9 @@ Litmus:
 
 - Use compiled sources and don't send emails - because this will be a forwarded email
 
+## Dev Tools
+### Current available tools
+- Inlining CSS tools: https://github.com/imlucas/gulp-juice
+
 ## Other Information
-- Litmus as a great blog with information on fixing problems: https://litmus.com/blog/
+- Litmus has a great blog with information on fixing problems: https://litmus.com/blog/

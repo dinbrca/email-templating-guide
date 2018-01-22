@@ -69,9 +69,13 @@ Some Pre-made Templates Sources:
 ### Responsive design:
 - Use Tables
 - Some clients - mainly mobile support media queries:
+
 Before:
+
 ![Image](https://github.com/dinbrca/email-templating-guide/raw/master/android4-vertical-allowed-1366.png)
+
 After:
+
 ![Image](https://github.com/dinbrca/email-templating-guide/raw/master/android4-vertical-allowed-1366%20(1).png)
 
 ### Images:

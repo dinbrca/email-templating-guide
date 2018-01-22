@@ -2,10 +2,12 @@
 
 This guide was created after having issues while working at Green Invoice to refactor our transaction email system.
 
-This guide was built upon my experiences and others.
+This guide was built upon my experiences and others and comes to help solving most of the issues of email templating.
 
-## Contribution
-Contribution is welcomed, we will merge any pull request happily.
+## Contributions
+Contributions are welcomed, we will merge any pull request happily.
+
+If you add a note please try to follow the way shown in here such as: before, after pictures, code examples.
 
 ## Introduction
 Some general email guidelines:

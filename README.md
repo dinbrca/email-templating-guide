@@ -5,10 +5,9 @@ Contribution is welcomed, we will merge any pull request happily.
 
 ## Introduction
 Some general email guidelines:
-- https://stackoverflow.com/questions/127498/what-guidelines-for-html-email-design-are-there
-- https://www.pinpointe.com/blog/email-campaign-html-and-css-support
-- https://graphicdesign.stackexchange.com/questions/5118/is-there-a-standard-sizewidth-for-email-newsletter-design-or-something-like-a
-- https://www.sitepoint.com/how-to-code-html-email-newsletters/
+
+- Consider as it's 1997
+
 - Use Litmus for email testing
 
 
@@ -27,8 +26,6 @@ Some Pre-made Templates Sources:
 - Direct email and forwarded email are totally different and receive different styling by email clients
 
 - Use tables and not divs
-
-- Consider as it's 1997
 
 - Check your email distribution statistics
 
@@ -104,3 +101,7 @@ Litmus:
 
 ## Other Information
 - Litmus has a great blog with information on fixing problems: https://litmus.com/blog/
+- https://stackoverflow.com/questions/127498/what-guidelines-for-html-email-design-are-there
+- https://www.pinpointe.com/blog/email-campaign-html-and-css-support
+- https://graphicdesign.stackexchange.com/questions/5118/is-there-a-standard-sizewidth-for-email-newsletter-design-or-something-like-a
+- https://www.sitepoint.com/how-to-code-html-email-newsletters/

@@ -190,3 +190,4 @@ Litmus:
 - https://stackoverflow.com/questions/127498/what-guidelines-for-html-email-design-are-there
 - https://www.pinpointe.com/blog/email-campaign-html-and-css-support
 - https://www.sitepoint.com/how-to-code-html-email-newsletters/
+- https://www.emailonacid.com/blog/article/email-development/12_things_you_must_know_when_developing_for_gmail_and_gmail_mobile_apps#gmail_tip1

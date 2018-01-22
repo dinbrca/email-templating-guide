@@ -113,8 +113,10 @@ I used a wrapper div which centers like:
     </table>
 </div>
 ```
+![Image](https://github.com/dinbrca/email-templating-guide/raw/master/ol2016-vertical-allowed-1366%20(3).png)
 Instead of the solution of td before and after
 - Don't put margin on tables - on outlook the margin is parsed down to each td instead of the table itself - fix - make a wrapper div and put the margin on it.
+![Image](https://github.com/dinbrca/email-templating-guide/raw/master/ol2016-vertical-allowed-1366%20(2).png)
 
 ### Hrefs / Anchors / Links:
 - use `border="0"` on images and hrefs or else you will get blue or black borders over images as stated in (see picture of the problem): https://litmus.com/blog/prevent-borders-linked-images

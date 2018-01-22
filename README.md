@@ -33,7 +33,7 @@ Some Pre-made Templates Sources:
 - Check your email distribution statistics
 
 - Allow users to view the email in browser and not in email client.
-
+![Image](https://github.com/dinbrca/email-templating-guide/raw/master/Screen%20Shot%202018-01-22%20at%2011.52.11%20AM.png)
 
 ### Responsive design:
 

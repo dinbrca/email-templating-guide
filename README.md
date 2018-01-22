@@ -159,7 +159,17 @@ Instead of the solution of td before and after
 ### Paragraphs (`<p>`):
 - if you are using `<p>` - you should add `style="margin:1em 0;"` as fix for outlook - because chrome user agent css adds that.
 
-### Other Problems:
+### Other:
+- You can use conditions for Outlook, although it's preferable to just fine another way because it makes the code clutered, example:
+```
+<!--[if mso]>
+<style type="text/css">
+    body, table, td {
+        font-family: Arial, Helvetica, sans-serif !important;
+    }
+</style>
+<![endif]-->
+```
 - use `<br/>`, for padding from sides - tables with fixed width
 
 ## General Tools

@@ -125,7 +125,9 @@ After:
 - Border Radius isn't supported in lots of mail, fix: https://www.campaignmonitor.com/forums/topic/7666/borderradius-support-in-email/
 
 ### CSS Support:
-- See the following for current support of CSS: https://www.pinpointe.com/blog/email-campaign-html-and-css-support
+- See the following for current support of CSS:
+    - https://www.campaignmonitor.com/css/
+    - https://www.pinpointe.com/blog/email-campaign-html-and-css-support
 
 ### Tables:
 - Outlook have extra white border: <https://stackoverflow.com/questions/8015773/table-style-border-outlook-2010-adds-an-extra-space> - fix - use ` style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"` on each table

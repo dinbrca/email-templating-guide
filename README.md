@@ -39,7 +39,7 @@ Some Pre-made Templates Sources:
 - You should also check versions distribution of operating systems:
     - Android distribution: <https://developer.android.com/about/dashboards/index.html#Platform>
 
-- Prefered width of email is between 550-600 pixels, although I myself have used 680 pixels and it was fine.
+- Prefered width of email is between 550-600 pixels, although I myself have used 680 pixels and it was fine. See: <https://graphicdesign.stackexchange.com/questions/5118/is-there-a-standard-sizewidth-for-email-newsletter-design-or-something-like-a>
 
 - Allow users to view the email in browser and not in email client.
 ![Image](https://github.com/dinbrca/email-templating-guide/raw/master/Screen%20Shot%202018-01-22%20at%2011.52.11%20AM.png)
@@ -151,5 +151,4 @@ Litmus:
 - Litmus has a great blog with information on fixing problems: https://litmus.com/blog/
 - https://stackoverflow.com/questions/127498/what-guidelines-for-html-email-design-are-there
 - https://www.pinpointe.com/blog/email-campaign-html-and-css-support
-- https://graphicdesign.stackexchange.com/questions/5118/is-there-a-standard-sizewidth-for-email-newsletter-design-or-something-like-a
 - https://www.sitepoint.com/how-to-code-html-email-newsletters/

@@ -178,7 +178,11 @@ Litmus:
 
 ## Dev Tools
 ### Current available tools
-- Inlining CSS tools: https://github.com/imlucas/gulp-juice
+- Inlining CSS tools:
+    - Online Tools
+         - http://zurb.com/ink/inliner.php
+    - Code Tools
+         - https://github.com/imlucas/gulp-juice
 
 ## Other Information
 - Litmus has a great blog with information on fixing problems: https://litmus.com/blog/

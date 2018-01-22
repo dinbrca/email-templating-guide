@@ -87,3 +87,6 @@ Instead of the solution of td before and after
 Litmus:
 
 - Use compiled sources and don't send emails - because this will be a forwarded email
+
+## Other Information
+- Litmus as a great blog with information on fixing problems: https://litmus.com/blog/

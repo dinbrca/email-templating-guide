@@ -95,6 +95,9 @@ Some Pre-made Templates Sources:
 - Outlook (for Window) doesn't respect line-height - fix - use `mso-line-height-rule: exactly;line-height:110%;` for `line-height:24px;` effect, `mso-line-height-rule: exactly;line-height: 245%` for almost `line-height:36px;` effect: https://stackoverflow.com/questions/8980956/line-height-not-working-in-outlook-2010-for-html-email
 - Border Radius isn't supported in lots of mail, fix: https://www.campaignmonitor.com/forums/topic/7666/borderradius-support-in-email/
 
+### CSS Support:
+- See the following for current support of CSS: https://www.pinpointe.com/blog/email-campaign-html-and-css-support
+
 ### Tables:
 - Outlook have extra white border: <https://stackoverflow.com/questions/8015773/table-style-border-outlook-2010-adds-an-extra-space> - fix - use ` style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"` on each table
 - Outlook doesn't center: <https://stackoverflow.com/questions/2426072/is-there-an-equivalent-of-css-max-width-that-works-in-html-emails> - fix - use hack in the link

@@ -14,7 +14,7 @@ Some general email guidelines:
 
 - Consider as it's 1997
 
-- Use Litmus for email testing
+- Use email testing
 
 
 Some Pre-made Templates Sources:
@@ -137,11 +137,15 @@ Instead of the solution of td before and after
 ### Current available tools
 - Litmus <https://www.litmus.com/>
 - Email on Acid <https://www.emailonacid.com/>
+- BrowserStack
 
 ### Tools notes
 Litmus:
+- Currently the best tool for testing emails
+- Sometimes have problems with rendering, see example (when this happens you might need to retry the render):
+![Image](https://github.com/dinbrca/email-templating-guide/raw/master/ol2016-vertical-allowed-1366%20(2).png)
+- Use compiled sources and don't send emails - because this will be like a forwarded email
 
-- Use compiled sources and don't send emails - because this will be a forwarded email
 
 ## Dev Tools
 ### Current available tools

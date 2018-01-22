@@ -70,6 +70,15 @@ Some Pre-made Templates Sources:
 - Use Tables
 - Some clients - mainly mobile support media queries:
 
+The following CSS helped achieving responsive tables on mobile:
+```
+@media only screen and (max-width: 600px) {
+    table {
+        width: auto !important;
+    }
+}
+```
+
 Before:
 
 ![Image](https://github.com/dinbrca/email-templating-guide/raw/master/android4-vertical-allowed-1366.png)

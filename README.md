@@ -87,6 +87,17 @@ After:
 
 ![Image](https://github.com/dinbrca/email-templating-guide/raw/master/android4-vertical-allowed-1366%20(1).png)
 
+- Add some side margins so that the text won't be close to the screen border to each element using `margin:0 1em;` as example:
+
+Before:
+
+![Image](https://github.com/dinbrca/email-templating-guide/raw/master/androidoutlook-vertical-allowed-1366.png)
+
+After:
+
+![Image](https://github.com/dinbrca/email-templating-guide/raw/master/androidoutlook-vertical-allowed-1366%20(1).png)
+
+
 ### Images:
 - Images on mobile are pixelized - to fix - create an image with a size of 2x and resize the image to half of it in the html
 - Gmail showing a download image button: <https://stackoverflow.com/questions/26970661/gmail-shows-download-icon-on-images-of-html-email>, <https://www.emailonacid.com/blog/article/email-development/prevent-gmail-from-displaying-image-download-button-in-email>, <https://stackoverflow.com/questions/28565323/disable-gmails-image-download-popup> - fix - wrap the image with an href `<a href="#"><img width="260" height="196" style="pointer-events:none !important" src="https://cdn.greeninvoice.co.il/files/ugc/e/8/8/e88b74294ed84f8eb76471c5f83b7e26.png" alt="ברוכים הבאים לחשבונית ירוקה"/></a>`
@@ -153,7 +164,7 @@ Instead of the solution of td before and after
 
 ## General Tools
 ### Current available tools
-- Litmus <https://www.litmus.com/>
+- Litmus <https://www.litmus.com/>, Live example for Litmus rendering: <https://litmus.com/previews/public/d6d8342>
 - Email on Acid <https://www.emailonacid.com/>
 - BrowserStack
 

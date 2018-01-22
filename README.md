@@ -1,5 +1,6 @@
 # Definitive HTML Email Templating Guide [Transactional / Marketing Email Templating]
 
+## Introduction
 Some general email guidelines:
 - https://stackoverflow.com/questions/127498/what-guidelines-for-html-email-design-are-there
 - https://www.pinpointe.com/blog/email-campaign-html-and-css-support
@@ -14,9 +15,16 @@ Some Pre-made Templates Sources:
 
 - https://github.com/mailgun/transactional-email-templates
 
+
+## Guide
 General:
 
 - Direct email and forwarded email are totally different and receive different styling by email clients
+
+Responsive design:
+
+CSS Styling:
+
 
 Problems:
 - Outlook ignores fonts: <https://stackoverflow.com/questions/30057404/outlook-2013-ignores-font-family> - to fix - any nested table needs to have a `font-family`
@@ -53,6 +61,12 @@ Instead of the solution of td before and after
 - If you are using font-size or font-family - use it on every `table`, every `p` tag - because else the client will override you
 - use `border="0"` on images and hrefs or else you will get blue or black borders over images as stated in (see picture of the problem): https://litmus.com/blog/prevent-borders-linked-images
 
+## Tools
+### Current available tools
+- Litmus <https://www.litmus.com/>
+- Email on Acid <https://www.emailonacid.com/>
+
+### Tools notes
 Litmus:
 
 - Use compiled sources and don't send emails - because this will be a forwarded email

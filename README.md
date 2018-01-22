@@ -122,14 +122,14 @@ After:
 - Outlook and images not using max-width property: <https://stackoverflow.com/questions/20989897/image-style-height-and-width-not-taken-in-outlook-mails> - fix - use a parent with fixed width and then half width in images
 - Avoid using padding - Outlook doesn't like padding, Outlook 2013 / 2016 doesn't support padding at all - fix - for new lines 
 - Outlook (for Window) doesn't respect line-height - fix - use `mso-line-height-rule: exactly;line-height:110%;` for `line-height:24px;` effect, `mso-line-height-rule: exactly;line-height: 245%` for almost `line-height:36px;` effect: https://stackoverflow.com/questions/8980956/line-height-not-working-in-outlook-2010-for-html-email
-- Border Radius / Rounded Borders isn't supported in lots of mail, fix: https://www.campaignmonitor.com/forums/topic/7666/borderradius-support-in-email/, 
-https://stackoverflow.com/questions/7405493/rounded-corners-in-outlook-without-images
+- Border Radius / Rounded Borders isn't supported in lots of email clients (mainly Outlook), fix: https://stackoverflow.com/questions/7405493/rounded-corners-in-outlook-without-images,
+https://www.campaignmonitor.com/forums/topic/7666/borderradius-support-in-email/
 
 Example:
 ```
 <div>
     <!--[if mso]>
-    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.EXAMPLE.com/" style="height:40px;v-text-anchor:middle;width:300px;" arcsize="10%" stroke="f" fillcolor="#d62828">
+    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.EXAMPLE.com/" style="height:40px;v-text-anchor:middle;width:300px;" arcsize="50%" stroke="f" fillcolor="#d62828">
         <w:anchorlock/>
         <center style="color:#ffffff;font-family:sans-serif;font-size:16px;font-weight:bold;">
             Button Text Here!
@@ -147,6 +147,14 @@ Example:
     <!-- <![endif]-->
 </div>
 ```
+
+Before:
+
+![Image](https://github.com/dinbrca/email-templating-guide/raw/master/ol2013-vertical-allowed-1366%20(3).png)
+
+After:
+
+![Image](https://github.com/dinbrca/email-templating-guide/raw/master/ol2013-vertical-allowed-1366%20(2).png)
 
 ### CSS Support:
 - See the following for current support of CSS:

@@ -12,7 +12,9 @@ If you add a note please try to follow the way shown in here such as: before, af
 ## Introduction
 Some general email guidelines:
 
-- Consider as it's 1997
+- Consider yourself as a programmer in year 1999
+
+- There is no standart to email templating
 
 - Use email testing
 
@@ -156,6 +158,15 @@ After:
 
 ![Image](https://github.com/dinbrca/email-templating-guide/raw/master/ol2013-vertical-allowed-1366%20(2).png)
 
+- Don't use:
+```
+<p style="font:bold 1em/1.4em Georgia,serif;">HTML e-mail sucks!</p>
+```
+Use the following instead:
+```
+<p style="font-weight: bold; font-size: 1em; line-height: 1.4em; font-family: Georgia,serif;">HTML e-mail REALLY sucks!</p>
+```
+
 ### CSS Support:
 - See the following for current support of CSS:
     - https://www.campaignmonitor.com/css/
@@ -205,6 +216,7 @@ Instead of the solution of td before and after
 <![endif]-->
 ```
 - use `<br/>`, for padding from sides - tables with fixed width
+- Don't use `<hr/>` - use tables instead.
 
 ## General Tools
 ### Current available tools
@@ -235,3 +247,4 @@ Litmus:
 - https://www.pinpointe.com/blog/email-campaign-html-and-css-support
 - https://www.sitepoint.com/how-to-code-html-email-newsletters/
 - https://www.emailonacid.com/blog/article/email-development/12_things_you_must_know_when_developing_for_gmail_and_gmail_mobile_apps#gmail_tip1
+- https://www.campaignmonitor.com/resources/guides/

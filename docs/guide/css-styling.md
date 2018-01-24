@@ -38,11 +38,11 @@ Example:
 
 Before:
 
-![Image](https://github.com/dinbrca/email-templating-guide/raw/master/ol2013-vertical-allowed-1366%20(3).png)
+![Image](../../images/guide/css-styling/before-border-radius-ol2013.png)
 
 After:
 
-![Image](https://github.com/dinbrca/email-templating-guide/raw/master/ol2013-vertical-allowed-1366%20(2).png)
+![Image](../../images/guide/css-styling/after-border-radius-ol2013.png)
 
 - Don't use:
 ```

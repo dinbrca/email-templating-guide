@@ -52,7 +52,7 @@ Some Pre-made Templates Sources:
 Litmus:
 - Currently the best tool for testing emails
 - Sometimes have problems with rendering, see example (when this happens you might need to retry the render):
-![Image](https://github.com/dinbrca/email-templating-guide/raw/master/ol2016-vertical-allowed-1366%20(2).png)
+![Image](images/general-tools/litmus-bug-black.png)
 - Use compiled sources or send emails directly - do not forward emails
 
 

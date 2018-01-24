@@ -11,6 +11,11 @@
 ```
 - use `<br/>`, for padding from sides - tables with fixed width
 - Don't use `<hr/>` - use tables instead.
+Do:
 ```
 <td style="border-bottom: 2px solid red;margin: 0;padding: 0;width: 680px;max-width: 680px;"></td>
+```
+Don't:
+```
+<td width="680" style="background-color:#D1D6D9"></td>
 ```

@@ -26,22 +26,22 @@ Don't:
 
 Before `<hr/>`:
 
-![Image](../../images/guide/other/before-hr-fix-hr-ol2000)
+![Image](../../images/guide/other/before-hr-fix-hr-ol2000.png)
 
-![Image](../../images/guide/other/before-hr-fix-hr-ol2007)
+![Image](../../images/guide/other/before-hr-fix-hr-ol2007.png)
 
 Before - when using td - height inconsistency:
 
-![Image](../../images/guide/other/before-hr-fix-table-ol2000)
+![Image](../../images/guide/other/before-hr-fix-table-ol2000.png)
 
-![Image](../../images/guide/other/before-hr-fix-table-ol2007)
+![Image](../../images/guide/other/before-hr-fix-table-ol2007.png)
 
 After - when using td with border-bottom:
 
-![Image](../../images/guide/other/after-hr-fix-ol2000)
+![Image](../../images/guide/other/after-hr-fix-ol2000.png)
 
-![Image](../../images/guide/other/after-hr-fix-ol2007)
+![Image](../../images/guide/other/after-hr-fix-ol2007.png)
 
-![Image](../../images/guide/other/after-hr-fix-appmail9)
+![Image](../../images/guide/other/after-hr-fix-appmail9.png)
 
-![Image](../../images/guide/other/after-hr-fix-appmail11)
+![Image](../../images/guide/other/after-hr-fix-appmail11.png)

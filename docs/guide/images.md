@@ -1,0 +1,4 @@
+### Images:
+- Images on mobile are pixelized - to fix - create an image with a size of 2x and resize the image to half of it in the html
+- Gmail showing a download image button: <https://stackoverflow.com/questions/26970661/gmail-shows-download-icon-on-images-of-html-email>, <https://www.emailonacid.com/blog/article/email-development/prevent-gmail-from-displaying-image-download-button-in-email>, <https://stackoverflow.com/questions/28565323/disable-gmails-image-download-popup> - fix - wrap the image with an href `<a href="#"><img width="260" height="196" style="pointer-events:none !important" src="https://cdn.greeninvoice.co.il/files/ugc/e/8/8/e88b74294ed84f8eb76471c5f83b7e26.png" alt="ברוכים הבאים לחשבונית ירוקה"/></a>`
+- Avoid margins in images - Outlook.com doesn't like it and removes margins from images as seen in the logo - use `<br/>` for top and bottom margins if you can
